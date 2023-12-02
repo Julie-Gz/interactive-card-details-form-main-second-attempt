@@ -154,6 +154,11 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 input:focus{
     border-image-source: linear-gradient(45deg,hsl(249, 99%, 64%),hsl(278, 94%, 30%));
     border-image-slice: 1;
